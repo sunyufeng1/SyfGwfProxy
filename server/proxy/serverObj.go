@@ -22,9 +22,9 @@ func (this *ServerObj) Init() {
 	this.encoder.Init()
 	this.decoder.Init()
 
-	//this.initListener()
+	this.initListener()
 	// this.initListenerTCP()
-	this.initListenerUDP()
+	//this.initListenerUDP()
 }
 
 func (this *ServerObj) initListener() {
