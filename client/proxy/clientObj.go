@@ -27,10 +27,10 @@ func (this *ClientObj) Init() {
 	this.encoder.Init()
 	this.decoder.Init()
 
-	//this.initListener()
+	this.initListener()
 	//this.initListenerTCP()
 	//this.initListenerOutTCP()
-	this.initListenerUDP()
+	//this.initListenerUDP()
 }
 
 type ServerIp struct {
